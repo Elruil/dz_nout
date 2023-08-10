@@ -1,0 +1,27 @@
+﻿//Задача 23: Напишите программу, которая принимает на
+//вход число (N) и выдаёт таблицу кубов чисел от 1 до N..
+int num = GetNum("Введите число таблицу кубов которого хотите получить", "Ошибка ввода данных");
+Console.WriteLine($"Введенное вами число {num}, таблицей кубов которго являются");
+
+for (int i = 1; i <= num; i++)
+{
+    int result = i*i*i;
+    Console.Write($" {result},");
+    
+}
+static int GetNum(string Message, string errorMessage)
+{
+    while (true)
+    {
+        try
+        {
+            Console.WriteLine(Message);
+            int num = int.Parse(Console.ReadLine() ?? "");
+            return num;
+        }
+        catch (Exception exc)
+        {
+            Console.WriteLine($"{errorMessage} {exc.Message}");
+        }
+    }
+}
