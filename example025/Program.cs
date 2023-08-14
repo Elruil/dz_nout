@@ -4,6 +4,7 @@
 Console.Clear();
 int numOne = GetNum("Введите первое число", "Ошибка ввода", "Введите число больше нуля");
 int numTwo = GetNum("Введите второе число", "Ошибка ввода", "Введите число больше нуля");
+double result = Math.Pow(numOne,numTwo);
 static int GetNum(string Message, string errorMessage, string ErrorEnter)
 {
     while (true)
@@ -13,7 +14,7 @@ static int GetNum(string Message, string errorMessage, string ErrorEnter)
             Console.WriteLine(Message);
             int num = int.Parse(Console.ReadLine() ?? "");
             if (num > 0)
-            return num;
+                return num;
             else Console.WriteLine(ErrorEnter);
         }
         catch (Exception exc)
@@ -22,4 +23,4 @@ static int GetNum(string Message, string errorMessage, string ErrorEnter)
         }
     }
 }
-Console.Write($" введенное число {numOne}  второе число {numTwo}");
+Console.Write($"первое введенное число {numOne} , второе число {numTwo} , результат возведения числа {numOne} в {numTwo}-ю степень это - {result}");
