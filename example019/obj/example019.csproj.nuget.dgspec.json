@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AlinaS\\Desktop\\test\\example019\\example019.csproj": {}
+    "c:\\Users\\AlinaS\\Desktop\\test\\example019\\example019.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AlinaS\\Desktop\\test\\example019\\example019.csproj": {
+    "c:\\Users\\AlinaS\\Desktop\\test\\example019\\example019.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AlinaS\\Desktop\\test\\example019\\example019.csproj",
+        "projectUniqueName": "c:\\Users\\AlinaS\\Desktop\\test\\example019\\example019.csproj",
         "projectName": "example019",
-        "projectPath": "C:\\Users\\AlinaS\\Desktop\\test\\example019\\example019.csproj",
+        "projectPath": "c:\\Users\\AlinaS\\Desktop\\test\\example019\\example019.csproj",
         "packagesPath": "C:\\Users\\AlinaS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AlinaS\\Desktop\\test\\example019\\obj\\",
+        "outputPath": "c:\\Users\\AlinaS\\Desktop\\test\\example019\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AlinaS\\AppData\\Roaming\\NuGet\\NuGet.Config"
